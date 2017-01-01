@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="idhms-server-api" />
+        <module name="idhms-server-core" />
+        <module name="idhms-server-web" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="idhms-server" target="1.5" />
+      <module name="idhms-server-api" target="1.5" />
+      <module name="idhms-server-core" target="1.5" />
+      <module name="idhms-server-web" target="1.5" />
+      <module name="idhmsservercore" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

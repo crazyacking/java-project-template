@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="idhms-server-web:war">
+    <output-path>$PROJECT_DIR$/web/target</output-path>
+    <root id="archive" name="idhms-server-web.war">
+      <element id="artifact" artifact-name="idhms-server-web:war exploded" />
+    </root>
+  </artifact>
+</component>

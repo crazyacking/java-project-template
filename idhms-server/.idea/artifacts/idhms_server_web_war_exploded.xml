@@ -1,0 +1,27 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="idhms-server-web:war exploded">
+    <output-path>$PROJECT_DIR$/web/target/idhms-server-web</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="idhms-server-web" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="archive" name="idhms-server-web-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="idhms-server-web" />
+          </element>
+          <element id="archive" name="idhms-server-api-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="idhms-server-api" />
+          </element>
+          <element id="archive" name="idhms-server-core-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="idhms-server-core" />
+          </element>
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/web/target/idhms-server-web/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="idhms-server-web/web/Web" />
+    </root>
+  </artifact>
+</component>
